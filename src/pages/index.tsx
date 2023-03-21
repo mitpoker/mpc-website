@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="max-w-prose">
+      <main className="max-w-prose mx-auto text-center my-20">
         The MIT Poker Club website is currently under development.
       </main>
     </>
