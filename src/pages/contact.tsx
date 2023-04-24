@@ -15,11 +15,11 @@ const Contact = () => {
 }
 
 const content = `
-For inquiries regarding sponsorships, events, tournaments, membership, or anything else, please contact us at poker-exec@mit.edu.
+For inquiries regarding sponsorships, events, tournaments, membership, or anything else, please contact us at [poker-exec@mit.edu](mailto:poker-exec@mit.edu).
 
-Become a Member to join our mailing list and participate in our events!
+Fill out [this form](https://forms.gle/yGTkQQr5x1qbLA969) to join our mailing list and participate in our events.
 
-Like our Facebook Page to stay up to date with Poker Club events!
+Follow us on [Instagram](https://www.instagram.com/mitpokerclub) or [Facebook](https://www.facebook.com/MITPokerClub/)!
 `
 
 export default Contact
