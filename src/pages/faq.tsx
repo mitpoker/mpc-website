@@ -17,7 +17,7 @@ const FAQ = () => {
 							{question}
 						</ReactMarkdown>
 					</div>
-					<div className="text-zinc-500 prose prose-zinc">
+					<div className="text-zinc-500 prose prose-zinc text-justify">
 						<ReactMarkdown>
 							{answer}
 						</ReactMarkdown>
