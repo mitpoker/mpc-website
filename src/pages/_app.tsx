@@ -17,7 +17,7 @@ const TopBar = () => {
           Officers
         </Link>
         <Link className="m-3 font-semibold text-zinc-700" href="/alumni">
-          Officers
+          Alumni
         </Link>
         <Link className="m-3 font-semibold text-zinc-700" href="/sponsors">
           Sponsors
