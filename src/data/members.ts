@@ -258,6 +258,87 @@ export const members: Array<Member> = [
     image: RyanKimImage,
     alum: true,
   },
+  {
+    name: "Allen Ding",
+    role: "Co-President",
+    username: "DingerMIT",
+    year: 2024,
+    bio: "Allen is a sophomore majoring in Computer Science. On committee, Allen does a lot of long term ideation and back end logistics, and loves spending time with the rest of the committee! Outside of Poker Club, Allen is also involved with the Collegiate Series of Poker, Web Lab, Asian Dance Team, and is a member of Zeta Beta Tau. In his free time, he likes to read, longboard, and play volleyball — and sometimes does all 3 at once.",
+    image: AllenDingImage,
+    alum: false,
+  },
+  {
+    name: "Naail Lakhani",
+    role: "Co-President",
+    username: "nlakhani",
+    year: 2024,
+    bio: "Naail is a freshman studying Mathematics with Computer Science. In his free time, you'll find him playing poker with other committee members or catching the Celtics game with his friends in ZBT.",
+    image: NaailLakhaniImage,
+    alum: false,
+  },
+  {
+    name: "Justin Shan",
+    role: "Corporate Relations",
+    username: "Jjshan262",
+    year: 2025,
+    bio: "Justin is a sophomore majoring in CS and Neuroscience. Outside of Poker Club, he enjoys trying his hand at puzzle hunts, gushing about Christopher Nolan movies, and attempting to replicate Carl's British accent.",
+    image: JustinShanImage,
+    alum: false,
+  },
+  {
+    name: "Robert Cunningham",
+    role: "Committee",
+    username: "elliptic_food",
+    year: 2023,
+    bio: "Robert officially studies math, but actually takes whatever classes he finds interesting across several departments. In his spare time, he enjoys asking questions, longboarding, and learning about learning.",
+    image: RobertCunninghamImage,
+    alum: false,
+  },
+  {
+    name: "Megha Maran",
+    role: "Committee",
+    username: "megham01",
+    year: 2023,
+    bio: "Megha is a junior majoring in Computer Science and Business Analytics. She is on MIT’s Varsity dive team. Outside of poker, she enjoys listening to music, spending time with friends, and eating good food.",
+    image: MeghaMaranImage,
+    alum: false,
+  },
+  {
+    name: "Allen Wang",
+    role: "Committee",
+    username: "AllenWang271",
+    year: 2023,
+    bio: "Allen is a junior studying math and cs. On committee, Allen does web things, design subcommittee tasks, and lots of logistics! Allen's favorite thing about Committee is being around super motivated and supportive individuals who always have interesting tidbits of their lives to share. Outside of poker club, Allen is involved in HackMIT and MIT Science Olympiad. In his free time, he likes to read, reflect, and write.",
+    image: AllenWangImage,
+    alum: false,
+  },
+  {
+    name: "Isaac Zhang",
+    role: "Committee",
+    username: "PresidentPeewee",
+    year: 2023,
+    bio: "Isaac is currently a sophomore majoring in Mathematics and Computer Science. He is also a member of Dance Troupe and ZBT. Outside of poker, Isaac loves listening to music and he enjoys talking about music with other people. His current favorite artists are Pink Floyd, Ween, Led Zeppelin, and Michael Jackson. In the future, Isaac wants to make money by gambling.",
+    image: IsaacZhangImage,
+    alum: false,
+  },
+  {
+    name: "Lauren Li",
+    role: "Committee",
+    username: "lithium01",
+    year: 2023,
+    bio: "Lauren is a sophomore majoring in Physics and Mathematics. She researches single-cell genomics, plays violin in the MIT Symphony Orchestra and is on the Asian Dance Team. Aside from Poker, she also enjoys climbing trees and creating the occasional meme.",
+    image: LaurenLiImage,
+    alum: false,
+  },
+  {
+    name: "Michelle Li",
+    role: "Committee",
+    username: "moospire",
+    year: 2024,
+    bio: "Michelle is a second-year majoring in computer science and dabbling in mathematics. She's also a member of class council and pi phi. When she's not busy raking in wins from poker, she loves curating her spotify playlists, playing tennis, and trying to grow basil for the third time.",
+    image: MichelleLiImage,
+    alum: false,
+  },
 ]
 
 export type Member = {
@@ -267,4 +348,5 @@ export type Member = {
   bio: string
   image: StaticImageData
   alum: boolean
+  role?: string
 }
