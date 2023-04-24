@@ -9,8 +9,8 @@ const Sponsors = () => {
 		<div className="px-2 flex flex-col py-3">
 			<h2 className="text-zinc-700 font-bold text-2xl mx-auto my-5 text-center">Sponsors</h2>
 			<div className="prose prose-zinc">
-				{tiers.map(t => (
-					<SponsorsAtTier tier={t} sponsors={SponsorData.filter(s => s.tier == t)}></SponsorsAtTier>
+				{tiers.map((t, i) => (
+					<SponsorsAtTier key={i} tier={t} sponsors={SponsorData.filter(s => s.tier == t)}></SponsorsAtTier>
 				))}
 			</div>
 		</div>
@@ -21,13 +21,13 @@ const SponsorsAtTier = ({ tier, sponsors }: { tier: string, sponsors: Array<Spon
 	return <div>
 		{tier}
 		{
-			sponsors.map(s => (
-				<>
+			sponsors.map((s, i) => (
+				<div key={i}>
 					<Image {...s.image} alt={s.name}></Image>
 					<ReactMarkdown>
 						{s.text_md!}
 					</ReactMarkdown>
-				</>
+				</div>
 			))
 		}
 	</div>
