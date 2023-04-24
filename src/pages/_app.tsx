@@ -13,21 +13,21 @@ const TopBar = () => {
         MIT Poker Club
       </Link>
       <div className="gap-4">
-        <a className="m-3 font-semibold text-zinc-700" href="/officers">
+        <Link className="m-3 font-semibold text-zinc-700" href="/officers">
           Officers
-        </a>
-        <a className="m-3 font-semibold text-zinc-700" href="/alumni">
+        </Link>
+        <Link className="m-3 font-semibold text-zinc-700" href="/alumni">
           Officers
-        </a>
-        <a className="m-3 font-semibold text-zinc-700" href="/sponsors">
+        </Link>
+        <Link className="m-3 font-semibold text-zinc-700" href="/sponsors">
           Sponsors
-        </a>
-        <a className="m-3 font-semibold text-zinc-700" href="/faq">
+        </Link>
+        <Link className="m-3 font-semibold text-zinc-700" href="/faq">
           FAQ
-        </a>
-        <a className="m-3 font-semibold text-zinc-700" href="/contact">
+        </Link>
+        <Link className="m-3 font-semibold text-zinc-700" href="/contact">
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   </div>
