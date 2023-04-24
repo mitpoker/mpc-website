@@ -54,6 +54,7 @@ import VickyChenImage from "Vicky_Chen_Profile_Picture.jpg"
 import WendySunImage from "Wendy_Sun_Profile_Picture.jpg"
 import WendyYinImage from "Wendy_Yin_Profile_Picture.jpg"
 import WilliamCuozzoImage from "William_Cuozzo_Profile_Picture.jpg"
+
 import { StaticImageData } from "next/image"
 
 export const members: Array<Member> = [
