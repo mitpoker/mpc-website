@@ -1,8 +1,16 @@
 import ReactMarkdown from 'react-markdown'
 import { Sponsor, SponsorData, SponsorTier } from '@/data/sponsors'
 import Image from "next/image"
+import _ from 'lodash'
 
-const tiers = Object.values(SponsorTier).filter(value => typeof value === 'string') as string[]
+const tiers = Object.values(SponsorTier).filter(value => typeof value === 'string') as SponsorTier[]
+
+const tierConfig: Record<SponsorTier, { width: string, text: boolean }> = {
+	[SponsorTier.Platinum]: { width: "grid-cols-1", text: true },
+	[SponsorTier.Gold]: { width: "grid-cols-2", text: true },
+	[SponsorTier.Silver]: { width: "grid-cols-2", text: false },
+	[SponsorTier.Bronze]: { width: "grid-cols-3", text: false },
+}
 
 const Sponsors = () => {
 	return <div className="max-w-prose mx-auto">
@@ -17,20 +25,22 @@ const Sponsors = () => {
 	</div>
 }
 
-const SponsorsAtTier = ({ tier, sponsors }: { tier: string, sponsors: Array<Sponsor> }) => {
+const SponsorsAtTier = ({ tier, sponsors }: { tier: SponsorTier, sponsors: Array<Sponsor> }) => {
+	const { width: imageWidth, text } = tierConfig[tier]
 	return <div>
-		{tier}
-		{
-			sponsors.map((s, i) => (
-				<div key={i}>
-					<Image {...s.image} alt={s.name}></Image>
+		<h2 className="text-zinc-700 font-bold text-xl mx-auto my-5 text-center">{_.capitalize(tier) + " Sponsors"}</h2>
+		<div className={text ? "" : `grid gap-5 ${imageWidth} items-center` /*"flex flex-row items-center"*/}>{
+			_.shuffle(sponsors).map((s, i) => (
+				<div key={i} className="">
+					<Image {...s.image} alt={s.name} className={" mx-auto"}></Image>
 					<ReactMarkdown>
 						{s.text_md!}
 					</ReactMarkdown>
 				</div>
 			))
 		}
-	</div>
+		</div>
+	</div >
 }
 
 export default Sponsors
