@@ -1,16 +1,16 @@
 import ReactMarkdown from 'react-markdown'
-import { Sponsor, SponsorData, SponsorTier } from '@/data/sponsors'
+import { Sponsor, SponsorData, SponsorTier } from '@/lib/sponsors'
 import Image from "next/image"
 import _ from 'lodash'
 import Link from 'next/link'
 
 const tiers = Object.values(SponsorTier).filter(value => typeof value === 'string') as SponsorTier[]
 
-const tierConfig: Record<SponsorTier, { width: string, text: boolean }> = {
-	[SponsorTier.Platinum]: { width: "grid-cols-1", text: true },
-	[SponsorTier.Gold]: { width: "grid-cols-2", text: true },
-	[SponsorTier.Silver]: { width: "grid-cols-2", text: false },
-	[SponsorTier.Bronze]: { width: "grid-cols-3", text: false },
+const tierConfig: Record<SponsorTier, { width: string, ownLine: boolean, grid: string }> = {
+	[SponsorTier.Platinum]: { width: "", grid: "grid-cols-1", ownLine: true },
+	[SponsorTier.Gold]: { width: "w-1/2", grid: "grid-cols-2", ownLine: true },
+	[SponsorTier.Silver]: { width: "w-2/3", grid: "grid-cols-2", ownLine: false },
+	[SponsorTier.Bronze]: { width: "w-2/3", grid: "grid-cols-3", ownLine: false },
 }
 
 const Sponsors = () => {
@@ -27,14 +27,19 @@ const Sponsors = () => {
 }
 
 const SponsorsAtTier = ({ tier, sponsors }: { tier: SponsorTier, sponsors: Array<Sponsor> }) => {
-	const { width: imageWidth, text } = tierConfig[tier]
-	return <div>
-		<h2 className="text-zinc-700 font-bold text-xl mx-auto my-5 text-center">{_.capitalize(tier) + " Sponsors"}</h2>
-		<div className={text ? "" : `grid gap-5 ${imageWidth} items-center` /*"flex flex-row items-center"*/}>{
+	const { width: imageWidth, grid: gridConfig, ownLine } = tierConfig[tier]
+	const tierTitle = `${_.capitalize(tier)} Sponsor${sponsors.length > 1 ? 's' : ''}`
+
+	const adjacentSponsorStying = `grid gap-5 ${gridConfig} items-center`
+	const ownLineSponsorStyling = `flex flex-col gap-5 items-center`
+
+	return <div className="mb-10">
+		<h2 className="text-zinc-700 font-bold text-3xl mx-auto my-5 text-center">{tierTitle}</h2>
+		<div className={ownLine ? ownLineSponsorStyling : adjacentSponsorStying}>{
 			_.shuffle(sponsors).map((s, i) => (
-				<div key={i} className="">
+				<div key={i} className="text-justify">
 					<Link href={s.link} target="_blank">
-						<Image {...s.image} alt={s.name} className={" mx-auto"}></Image>
+						<Image {...s.image} alt={s.name} className={"mx-auto " + imageWidth}></Image>
 					</Link>
 					<ReactMarkdown>
 						{s.text_md!}
