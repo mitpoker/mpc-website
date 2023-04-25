@@ -1,4 +1,5 @@
 // Dynamic await import() or require() are not supported. The import must be static so it can be analyzed at build time.
+// Yes, I also wish TypeScript supported some kind of metaprogramming.
 
 import AllenChengImage from "../../images/headshots/Allen_Cheng_Profile_Picture.jpg"
 import AllenDingImage from "../../images/headshots/Allen_Ding_Profile_Picture.png"

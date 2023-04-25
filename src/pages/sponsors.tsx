@@ -16,7 +16,6 @@ const tierConfig: Record<SponsorTier, { width: string, ownLine: boolean, grid: s
 const Sponsors = () => {
 	return <div className="max-w-prose mx-auto">
 		<div className="px-2 flex flex-col py-3">
-			{/* <h2 className="text-zinc-700 font-bold text-2xl mx-auto my-5 text-center">Sponsors</h2> */}
 			<div className="prose prose-zinc">
 				{tiers.map((t, i) => (
 					<SponsorsAtTier key={i} tier={t} sponsors={SponsorData.filter(s => s.tier == t)}></SponsorsAtTier>
@@ -30,12 +29,12 @@ const SponsorsAtTier = ({ tier, sponsors }: { tier: SponsorTier, sponsors: Array
 	const { width: imageWidth, grid: gridConfig, ownLine } = tierConfig[tier]
 	const tierTitle = `${_.capitalize(tier)} Sponsor${sponsors.length > 1 ? 's' : ''}`
 
-	const adjacentSponsorStying = `grid gap-5 ${gridConfig} items-center`
+	const sameLineSponsorStyling = `grid ${gridConfig} gap-5 items-center`
 	const ownLineSponsorStyling = `flex flex-col gap-5 items-center`
 
 	return <div className="mb-10">
 		<h2 className="text-zinc-700 font-bold text-3xl mx-auto my-5 text-center">{tierTitle}</h2>
-		<div className={ownLine ? ownLineSponsorStyling : adjacentSponsorStying}>{
+		<div className={ownLine ? ownLineSponsorStyling : sameLineSponsorStyling}>{
 			_.shuffle(sponsors).map((s, i) => (
 				<div key={i} className="text-justify">
 					<Link href={s.link} target="_blank">

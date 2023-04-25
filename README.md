@@ -26,6 +26,10 @@ The main pages of the website (Events, Sponsors, Officers, Alumni, FAQ, Contact)
 
 The Alumni and Officers share a component called `PeopleList`, which you can edit in `src/lib/PeopleList.tsx`.
 
+## Styling
+
+This project uses TailwindCSS. Despite its ugliness, the author thinks it's the best styling solution currently available.
+
 ## Deploying
 
 You should do your work on a feature branch. You can see a live preview of that branch through Vercel.
