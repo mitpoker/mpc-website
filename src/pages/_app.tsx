@@ -7,9 +7,9 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 
 const TopBar = () => {
-  return <div className="w-full sticky border-b top-0 backdrop-blur z-50 bg-zinc-50/90 overflow-hidden">
+  return <div className="w-full sticky border-b top-0 backdrop-blur z-50 bg-zinc-50/90 overflow-x-scroll">
     <div className="mx-auto max-w-4xl flex justify-between items-center">
-      <Link href="/" className="block px-8 py-4 text-xl text-zinc-700 font-bold tracking-wider">
+      <Link href="/" className="block px-8 py-4 text-xl text-zinc-700 font-bold tracking-wider whitespace-nowrap">
         MIT Poker Club
       </Link>
       <div className="gap-4">
