@@ -13,7 +13,7 @@ const PersonEntry = ({ info, index }: { info: Member, index: number }) => {
 	const isReversed = index % 2 == 1
 
 	return (
-		<div className={`mx-auto max-w-fit w-[75ch] flex gap-7 mt-10 border-zinc-100 p-3 rounded-md shadow-sm flex-col md:${isReversed ? "flex-row-reverse" : "flex-row"}`}>
+		<div className={`mx-auto max-w-fit w-[75ch] flex gap-7 mt-10 border-zinc-100 p-3 rounded-md shadow-sm flex-col ${isReversed ? "md:flex-row-reverse" : "md:flex-row"} `}>
 			<div className="w-full md:w-1/4 flex flex-col justify-center">
 				<Image src={info.image} style={{ borderRadius: '5px' }} alt={info.name} />
 			</div>
