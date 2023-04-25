@@ -16,13 +16,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>MIT Poker Club</title>
-        <meta name="description" content="MIT Poker Club provides a fun, spirited learning environemnt for poker enthusiasts and novices alike." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className="w-full">
         <div className="mx-auto mt-10 align-center items-center flex flex-col">
           <Carousel />
