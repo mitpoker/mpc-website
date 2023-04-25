@@ -7,12 +7,15 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 
 const TopBar = () => {
-  return <div className="w-full sticky border-b top-0 backdrop-blur z-50 bg-zinc-50/90">
+  return <div className="w-full sticky border-b top-0 backdrop-blur z-50 bg-zinc-50/90 overflow-hidden">
     <div className="mx-auto max-w-4xl flex justify-between items-center">
       <Link href="/" className="block px-8 py-4 text-xl text-zinc-700 font-bold tracking-wider">
         MIT Poker Club
       </Link>
       <div className="gap-4">
+        <Link className="m-3 font-semibold text-zinc-700" href="/events">
+          Events
+        </Link>
         <Link className="m-3 font-semibold text-zinc-700" href="/officers">
           Officers
         </Link>
