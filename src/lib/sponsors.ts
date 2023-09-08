@@ -51,7 +51,6 @@ export const SponsorData: Array<Sponsor> = [
     text_md:
         "We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting-edge research to global financial markets.",
   },
-
   {
     name: "Two Sigma",
     tier: SponsorTier.Silver,
@@ -64,8 +63,8 @@ export const SponsorData: Array<Sponsor> = [
     name: "IMC",
     tier: SponsorTier.Silver,
     image: IMCImage,
-    link: "https://www.imc.com/us/",
-    text_mid: 
+    link: "https://www.imc.com",
+    text_md: 
         "For three decades IMC has provided liquidity to the financial markets globally. Specialised in algorithmic trading and advanced technology, we set the pace for the evolution of market making.",
   },
   {

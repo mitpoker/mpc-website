@@ -8,9 +8,9 @@ const tiers = Object.values(SponsorTier).filter(value => typeof value === 'strin
 
 const tierConfig: Record<SponsorTier, { width: string, ownLine: boolean, grid: string }> = {
 	[SponsorTier.Platinum]: { width: "", grid: "grid-cols-1", ownLine: true },
-	[SponsorTier.Gold]: { width: "w-2/3 md:w-1/2", grid: "grid-cols-2", ownLine: true },
-	[SponsorTier.Silver]: { width: "w-full md:w-2/3", grid: "grid-cols-2", ownLine: false },
-	[SponsorTier.Bronze]: { width: "w-full md:w-2/3", grid: "grid-cols-3", ownLine: false },
+	[SponsorTier.Gold]: { width: "w-2/3 md:w-1/2", grid: "grid-cols-1", ownLine: true },
+	[SponsorTier.Silver]: { width: "w-full md:w-2/3", grid: "grid-cols-1", ownLine: true },
+	[SponsorTier.Bronze]: { width: "w-full md:w-2/3", grid: "grid-cols-2", ownLine: false },
 }
 
 const Sponsors = () => {
