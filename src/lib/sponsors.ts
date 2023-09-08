@@ -10,6 +10,8 @@ import JaneStreetImage from "../../images/sponsors/janestreet.png"
 import VaticImage from "../../images/sponsors/vatic.png"
 import JumpTradingImage from "../../images/sponsors/jumptrading.png"
 import DRWImage from "../../images/sponsors/drw.jpeg"
+import HRTImage from "../../images/sponsors/hrt.png"
+import DEShawImage from "../../images/sponsors/deshaw.png"
 
 export enum SponsorTier {
   Platinum = "platinum",
@@ -82,13 +84,13 @@ export const SponsorData: Array<Sponsor> = [
   {
     name: "HRT",
     tier: SponsorTier.Bronze,
-    image: CitadelImage,
-    link: "https://citadel.com",
+    image: HRTImage,
+    link: "https://www.hudsonrivertrading.com",
   },
   {
     name: "DE Shaw",
     tier: SponsorTier.Bronze,
-    image: CitadelImage,
-    link: "https://citadel.com",
+    image: DEShawImage,
+    link: "https://deshaw.com",
   },
 ]
