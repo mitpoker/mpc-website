@@ -8,6 +8,8 @@ import FlowImage from "../../images/sponsors/flow.png"
 import IMCImage from "../../images/sponsors/imc.png"
 import JaneStreetImage from "../../images/sponsors/janestreet.png"
 import VaticImage from "../../images/sponsors/vatic.png"
+import JumpTradingImage from "../../images/sponsors/jumptrading.png"
+import DRWImage from "../../images/sponsors/drw.jpeg"
 
 export enum SponsorTier {
   Platinum = "platinum",
@@ -34,22 +36,6 @@ export const SponsorData: Array<Sponsor> = [
       "SIG is a global quantitative trading firm founded with an entrepreneurial mindset and rigorous analytical approach to decision making. SIG also values gaming, poker especially, as a way to teach analytical skills used in trading - check out the [Gamer Blog](https://www.raiseyourgame.com/)!",
   },
   {
-    name: "Citadel",
-    tier: SponsorTier.Gold,
-    image: CitadelImage,
-    link: "https://citadel.com",
-    text_md:
-      "Citadel is a leading investor in the world's financial markets. For over a quarter of a century, Citadel has sought to deliver market-leading investment returns to capital partners. Citadel Securities aims to create the fairest, most transparent, and open markets in the world.",
-  },
-  {
-    name: "Two Sigma",
-    tier: SponsorTier.Gold,
-    image: TwoSigmaImage,
-    link: "https://twosigma.com",
-    text_md:
-      "At Two Sigma, we use data science and technology to discover value in markets worldwide. Our community of scientists, technologists and academics collaborate to solve some of the most challenging economic problems. We don’t just wonder— we create systematic tools and technologies to forecast the future of global markets.",
-  },
-  {
     name: "Jane Street",
     tier: SponsorTier.Gold,
     image: JaneStreetImage,
@@ -58,33 +44,52 @@ export const SponsorData: Array<Sponsor> = [
       "Jane Street is a quantitative trading firm that uses innovative technology, a scientific approach and a deep understanding of markets to guide our business. The markets change rapidly, and we need to change faster still. Every day, we come to work with new problems to solve, new systems to build and new theories to test. We’re always looking for people to join us and help come up with that next great idea",
   },
   {
+    name: "Jump Trading",
+    tier: SponsorTier.Silver,
+    image: JumpTradingImage,
+    link: "https://jumptrading.com",
+    text_md:
+        "We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting-edge research to global financial markets.",
+  },
+
+  {
+    name: "Two Sigma",
+    tier: SponsorTier.Silver,
+    image: TwoSigmaImage,
+    link: "https://twosigma.com",
+    text_md:
+      "At Two Sigma, we use data science and technology to discover value in markets worldwide. Our community of scientists, technologists and academics collaborate to solve some of the most challenging economic problems. We don’t just wonder— we create systematic tools and technologies to forecast the future of global markets.",
+  },
+  {
     name: "IMC",
     tier: SponsorTier.Silver,
     image: IMCImage,
     link: "https://www.imc.com/us/",
+    text_mid: 
+        "For three decades IMC has provided liquidity to the financial markets globally. Specialised in algorithmic trading and advanced technology, we set the pace for the evolution of market making.",
   },
   {
-    name: "Five Rings",
-    tier: SponsorTier.Silver,
-    image: FiveRingsImage,
-    link: "https://www.fiverings.com/",
-  },
-  {
-    name: "Flow Traders",
+    name: "Citadel",
     tier: SponsorTier.Bronze,
-    image: FlowImage,
-    link: "https://www.flowtraders.com/",
+    image: CitadelImage,
+    link: "https://citadel.com",
   },
   {
-    name: "Cubist",
+    name: "DRW",
     tier: SponsorTier.Bronze,
-    image: CubistImage,
-    link: "https://www.point72.com/cubist/",
+    image: DRWImage,
+    link: "https://drw.com",
   },
   {
-    name: "Vatic",
+    name: "HRT",
     tier: SponsorTier.Bronze,
-    image: VaticImage,
-    link: "https://vaticlabs.ai",
+    image: CitadelImage,
+    link: "https://citadel.com",
+  },
+  {
+    name: "DE Shaw",
+    tier: SponsorTier.Bronze,
+    image: CitadelImage,
+    link: "https://citadel.com",
   },
 ]
