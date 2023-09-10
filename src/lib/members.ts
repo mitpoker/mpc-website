@@ -400,7 +400,7 @@ export const members: Array<Member> = [
     role: "Committee",
     username: "moospire",
     year: 2026,
-    bio: "", 
+    bio: "Andrew is a sophomore majoring in Physics and Computer Science. Outside of poker club, he enjoys playing tennis, watching f1, and collecting watches.",
     image: AndrewDiazImage,
     alum: false,
   },
