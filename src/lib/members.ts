@@ -3,7 +3,7 @@
 import AllenChengImage from "../../images/headshots/Allen_Cheng_Profile_Picture.jpg"
 import AllenDingImage from "../../images/headshots/Allen_Ding_Profile_Picture.png"
 import AllenWangImage from "../../images/headshots/Allen_Wang_Profile_Picture.png"
-import AndrewDiazImage from "../../images/headshots/Andrew_Diaz_Profile_Picture.jpg"
+import AndrewDiazImage from "../../images/headshots/Andrew_Diaz_Profile_Picture.jpeg"
 import AnnieChenImage from "../../images/headshots/Annie_Chen_Profile_Picture.jpg"
 import AnthonyNardomarinoImage from "../../images/headshots/Anthony_Nardomarino_Profile_Picture.jpeg"
 import CarlWeiImage from "../../images/headshots/Carl_Wei_Profile_Picture.jpg"
@@ -346,7 +346,7 @@ export const members: Array<Member> = [
     role: "Treasurer",
     username: "Jjshan262",
     year: 2025,
-    bio: "",
+    bio: "Thomas is a junior descending from north usa. In his free time, which starts with his day after 2 pm, he likes shaking hands and dislikes folding hands.",
     image: ThomasGuoImage,
     alum: false,
   },
@@ -391,7 +391,7 @@ export const members: Array<Member> = [
     role: "Committee",
     username: "moospire",
     year: 2025,
-    bio: "", 
+    bio: "Nathan is a member of the class of 2025 and enjoys programming, poker, and videogames.",
     image: NathanChenImage,
     alum: false,
   },
