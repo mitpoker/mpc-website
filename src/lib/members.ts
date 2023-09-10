@@ -409,7 +409,7 @@ export const members: Array<Member> = [
     role: "Committee",
     username: "moospire",
     year: 2026,
-    bio: "", 
+    bio: "Vicky is a sophomore studying 6-9. Outside of poker, she's involved in Ring Committee and HackMIT. In her free time, she enjoys painting and reading yelp reviews.",
     image: VickyChenImage,
     alum: false,
   },
