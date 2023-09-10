@@ -38,7 +38,7 @@ import MeghaMaranImage from "../../images/headshots/Megha_Maran_Profile_Picture.
 import MichaelZhaoImage from "../../images/headshots/Michael_Zhao_Profile_Picture.jpg"
 import MichelleLiImage from "../../images/headshots/Michelle_Li_Profile_Picture.png"
 import MideumParkImage from "../../images/headshots/Mideum_Park_Profile_Picture.jpg"
-import NaailLakhaniImage from "../../images/headshots/Naail_Lakhani_Profile_Picture.jpg"
+import NaailLakhaniImage from "../../images/headshots/Naail_Lakhani_Profile_Picture.jpeg"
 import NathanChenImage from "../../images/headshots/Nathan_Chen_Profile_Picture.jpg"
 import PawanGoyalImage from "../../images/headshots/Pawan_Goyal_Profile_Picture.jpg"
 import PennyTanImage from "../../images/headshots/Penny_Tan_Profile_Picture.jpeg"
@@ -328,7 +328,7 @@ export const members: Array<Member> = [
     role: "Corporate Relations",
     username: "Jjshan262",
     year: 2025,
-    bio: "Justin is a junior majoring in CS and Neuroscience. Outside of Poker Club, he enjoys trying his hand at puzzle hunts, gushing about Christopher Nolan movies, and attempting to replicate Carl's British accent.",
+    bio: "Justin is a junior majoring in CS and Neuroscience. Outside of Poker Club, he enjoys trying his hand at puzzle hunts and gushing about Christopher Nolan movies.",
     image: JustinShanImage,
     alum: false,
   },
@@ -355,7 +355,7 @@ export const members: Array<Member> = [
     role: "Co-President",
     username: "nlakhani",
     year: 2025,
-    bio: "Naail is a sophomore studying Mathematics with Computer Science. In his free time, you'll find him playing poker with other committee members or catching the Celtics game with his friends in ZBT.",
+    bio: "Naail is a junior studying Mathematics with Computer Science. In his free time, you'll find him playing poker with other committee members or catching the Celtics game with his friends in ZBT.",
     image: NaailLakhaniImage,
     alum: false,
   },
@@ -364,7 +364,7 @@ export const members: Array<Member> = [
     role: "",
     username: "",
     year: 2024,
-    bio: "Eric is a junior studying Computer Science with interests in performance engineering, compilers, and systems engineering. In his free time, he enjoys exploring restaurants with friends and running around at night.",
+    bio: "Eric is a senior studying Computer Science with interests in performance engineering, compilers, and systems engineering. In his free time, he enjoys exploring restaurants with friends and running around at night.",
     image: EricWangImage,
     alum: false,
   },
@@ -373,7 +373,7 @@ export const members: Array<Member> = [
     role: "Committee",
     username: "moospire",
     year: 2024,
-    bio: "Michelle is a third-year majoring in computer science and dabbling in mathematics. She's also a member of class council and pi phi. When she's not busy raking in wins from poker, she loves curating her spotify playlists, playing tennis, and trying to grow basil for the third time.",
+    bio: "Michelle is a senior majoring in computer science and dabbling in mathematics. She's also a member of class council and pi phi. When she's not busy raking in wins from poker, she loves curating her spotify playlists, playing tennis, and trying to grow basil for the third time.",
     image: MichelleLiImage,
     alum: false,
   },

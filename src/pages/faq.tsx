@@ -35,7 +35,7 @@ MIT Poker Club is a student organization based at MIT, dedicated to fostering a 
 
 
 How can I get involved with MIT Poker Club?
-There are two ways to get involved. The first way is as a a general member - we warmly welcome all MIT students to become general members of the MIT Poker Club. Members will have the opportunity to attend all of our club's events, which include weekly meetings, casino nights, workshops, and tournaments. The second way is as a member of the executive committe, which is a close-knit group comprised of approximately 15-20 poker-loving undergraduates. Their main responsibility is to organize and manage all the club's events and activities, ensuring an enjoyable experience for all members. The committee also leads an internal education program, where executive members have the opportunity to study poker together. Additionally, they enjoy a variety of social events, such as dinners and retreats. 
+There are two ways to get involved. The first way is as a a general member - we warmly welcome all MIT students to become general members of the MIT Poker Club. Members will have the opportunity to attend all of our club's events, which include weekly meetings, casino nights, workshops, and tournaments. The second way is as a member of the executive committee, which is a close-knit group comprised of approximately 15-20 poker-loving undergraduates. Their main responsibility is to organize and manage all the club's events and activities, ensuring an enjoyable experience for all members. The committee also leads an internal education program, where executive members have the opportunity to study poker together. Additionally, they enjoy a variety of social events, such as dinners and retreats. 
 
 
 How can I join as a general member?
