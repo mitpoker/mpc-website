@@ -5,10 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import Image from 'next/image'
 
-import Carousel1 from '../../images/carousel/img1.jpg'
-import Carousel2 from '../../images/carousel/img2.jpg'
-import Carousel3 from '../../images/carousel/committee.jpg'
-import Carousel4 from '../../images/carousel/fall-main-event.jpg'
+import Carousel1 from '../../images/carousel/c1.jpeg'
+import Carousel2 from '../../images/carousel/c2.jpeg'
+import Carousel3 from '../../images/carousel/c3.jpeg'
 import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -43,16 +42,13 @@ const Carousel = () => (
       slidesToScroll: 1
     }}>
       <div>
-        <Image src={Carousel3} alt=""></Image>
-      </div>
-      <div>
-        <Image src={Carousel4} alt=""></Image>
-      </div>
-      <div>
         <Image src={Carousel1} alt=""></Image>
       </div>
       <div>
         <Image src={Carousel2} alt=""></Image>
+      </div>
+      <div>
+        <Image src={Carousel3} alt=""></Image>
       </div>
     </Slider>
   </div>
