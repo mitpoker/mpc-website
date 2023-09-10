@@ -32,12 +32,16 @@ export default function Home() {
   )
 }
 
+const carouselStyle = {
+  maxWidth: '800px',
+}
+
 const Carousel = () => (
-  <div className="w-full md:w-3/4">
+  <div className="w-full md:w-3/4" style={carouselStyle}>
     <Slider {...{
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 100,
       slidesToShow: 1,
       slidesToScroll: 1
     }}>
