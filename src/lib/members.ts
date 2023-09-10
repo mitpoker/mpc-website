@@ -14,6 +14,7 @@ import DannyYuanImage from "../../images/headshots/Danny_Yuan_Profile_Picture.jp
 import DavidZhengImage from "../../images/system/profile_default.png"
 import DavidWuImage from "../../images/headshots/David_Wu_Profile_Picture.png"
 import DionLowImage from "../../images/headshots/Dion_Low_Profile_Picture.jpg"
+import DylanRobinsonImage from "../../images/headshots/Dylan_Robinson_Profile_Picture.jpeg"
 import EmilyXieImage from "../../images/headshots/Emily_Xie_Profile_Picture.jpg"
 import EricQianImage from "../../images/headshots/Eric_Qian_Profile_Picture.jpg"
 import EricWangImage from "../../images/headshots/Eric_Wang_Profile_Picture.jpeg"
@@ -21,7 +22,7 @@ import HannaChenImage from "../../images/headshots/Hanna_Chen_Profile_Picture.pn
 import HenryHeibergerImage from "../../images/headshots/Henry_Heiberger_Profile_Picture.png"
 import IsaacZhangImage from "../../images/headshots/Isaac_Zhang_Profile_Picture.jpg"
 import JeffreyLuImage from "../../images/headshots/Jeffrey_Lu_Profile_Picture.jpg"
-import JenniferWangImage from "../../images/headshots/Jennifer_Wang_Profile_Picture.jpg"
+import JenniferWangImage from "../../images/headshots/Jennifer_Wang_Profile_Picture.png"
 import JoanneLeeImage from "../../images/headshots/Joanne_Lee_Profile_Picture.jpg"
 import JoshuaNwakobyImage from "../../images/headshots/Joshua_Nwakoby_Profile_Picture.jpg"
 import JustinShanImage from "../../images/headshots/Justin_Shan_Profile_Picture.jpg"
@@ -51,7 +52,7 @@ import TianchengQinImage from "../../images/headshots/Tiancheng_Qin_Profile_Pict
 import TristanCulpImage from "../../images/headshots/Tristan_Culp_Profile_Picture.png"
 import TristanShinImage from "../../images/headshots/Tristan_Shin_Profile_Picture.jpg"
 import VarianZhang from "../../images/headshots/Image Varian_Zhang _Profile_Picture.jpeg"
-import VickyChenImage from "../../images/headshots/Vicky_Chen_Profile_Picture.jpg"
+import VickyChenImage from "../../images/headshots/Vicky_Chen_Profile_Picture.jpeg"
 import WendySunImage from "../../images/headshots/Wendy_Sun_Profile_Picture.jpg"
 import WendyYinImage from "../../images/headshots/Wendy_Yin_Profile_Picture.jpg"
 import WilliamCuozzoImage from "../../images/headshots/William_Cuozzo_Profile_Picture.jpg"
@@ -266,15 +267,60 @@ export const members: Array<Member> = [
     year: 2024,
     bio: "Allen is a sophomore majoring in Computer Science. On committee, Allen does a lot of long term ideation and back end logistics, and loves spending time with the rest of the committee! Outside of Poker Club, Allen is also involved with the Collegiate Series of Poker, Web Lab, Asian Dance Team, and is a member of Zeta Beta Tau. In his free time, he likes to read, longboard, and play volleyball — and sometimes does all 3 at once.",
     image: AllenDingImage,
-    alum: false,
+    alum: true,
   },
   {
-    name: "Naail Lakhani",
-    role: "Co-President",
-    username: "nlakhani",
-    year: 2024,
-    bio: "Naail is a freshman studying Mathematics with Computer Science. In his free time, you'll find him playing poker with other committee members or catching the Celtics game with his friends in ZBT.",
-    image: NaailLakhaniImage,
+    name: "Robert Cunningham",
+    role: "Committee",
+    username: "elliptic_food",
+    year: 2023,
+    bio: "Robert officially studies math and physics, but actually takes whatever classes he finds interesting across several departments. In his spare time, he enjoys asking questions, longboarding, and learning about learning.",
+    image: RobertCunninghamImage,
+    alum: true,
+  },
+  {
+    name: "Megha Maran",
+    role: "Committee",
+    username: "megham01",
+    year: 2023,
+    bio: "Megha is a junior majoring in Computer Science and Business Analytics. She is on MIT’s Varsity dive team. Outside of poker, she enjoys listening to music, spending time with friends, and eating good food.",
+    image: MeghaMaranImage,
+    alum: true,
+  },
+  {
+    name: "Allen Wang",
+    role: "Committee",
+    username: "AllenWang271",
+    year: 2023,
+    bio: "Allen is a junior studying math and cs. On committee, Allen does web things, design subcommittee tasks, and lots of logistics! Allen's favorite thing about Committee is being around super motivated and supportive individuals who always have interesting tidbits of their lives to share. Outside of poker club, Allen is involved in HackMIT and MIT Science Olympiad. In his free time, he likes to read, reflect, and write.",
+    image: AllenWangImage,
+    alum: true,
+  },
+  {
+    name: "Isaac Zhang",
+    role: "Committee",
+    username: "PresidentPeewee",
+    year: 2023,
+    bio: "Isaac is currently a sophomore majoring in Mathematics and Computer Science. He is also a member of Dance Troupe and ZBT. Outside of poker, Isaac loves listening to music and he enjoys talking about music with other people. His current favorite artists are Pink Floyd, Ween, Led Zeppelin, and Michael Jackson. In the future, Isaac wants to make money by gambling.",
+    image: IsaacZhangImage,
+    alum: true,
+  },
+  {
+    name: "Lauren Li",
+    role: "Committee",
+    username: "lithium01",
+    year: 2023,
+    bio: "Lauren is a sophomore majoring in Physics and Mathematics. She researches single-cell genomics, plays violin in the MIT Symphony Orchestra and is on the Asian Dance Team. Aside from Poker, she also enjoys climbing trees and creating the occasional meme.",
+    image: LaurenLiImage,
+    alum: true,
+  },
+  {
+    name: "Jennifer Wang",
+    role: "President",
+    username: "Jjshan262",
+    year: 2025,
+    bio: "Jennifer is a junior studying Math and Computer Science. She's also a member in Sigma Kappa. Outside of poker club, Jennifer enjoys running along the Charles and spending time with friends!",
+    image: JenniferWangImage,
     alum: false,
   },
   {
@@ -287,48 +333,39 @@ export const members: Array<Member> = [
     alum: false,
   },
   {
-    name: "Robert Cunningham",
-    role: "Committee",
-    username: "elliptic_food",
-    year: 2023,
-    bio: "Robert officially studies math and physics, but actually takes whatever classes he finds interesting across several departments. In his spare time, he enjoys asking questions, longboarding, and learning about learning.",
-    image: RobertCunninghamImage,
+    name: "Dylan Robinson",
+    role: "Corporate Relations",
+    username: "Jjshan262",
+    year: 2025,
+    bio: "",
+    image: DylanRobinsonImage,
     alum: false,
   },
   {
-    name: "Megha Maran",
-    role: "Committee",
-    username: "megham01",
-    year: 2023,
-    bio: "Megha is a junior majoring in Computer Science and Business Analytics. She is on MIT’s Varsity dive team. Outside of poker, she enjoys listening to music, spending time with friends, and eating good food.",
-    image: MeghaMaranImage,
+    name: "Thomas Guo",
+    role: "Treasurer",
+    username: "Jjshan262",
+    year: 2025,
+    bio: "",
+    image: ThomasGuoImage,
     alum: false,
   },
   {
-    name: "Allen Wang",
-    role: "Committee",
-    username: "AllenWang271",
-    year: 2023,
-    bio: "Allen is a junior studying math and cs. On committee, Allen does web things, design subcommittee tasks, and lots of logistics! Allen's favorite thing about Committee is being around super motivated and supportive individuals who always have interesting tidbits of their lives to share. Outside of poker club, Allen is involved in HackMIT and MIT Science Olympiad. In his free time, he likes to read, reflect, and write.",
-    image: AllenWangImage,
+    name: "Naail Lakhani",
+    role: "Co-President",
+    username: "nlakhani",
+    year: 2025,
+    bio: "Naail is a freshman studying Mathematics with Computer Science. In his free time, you'll find him playing poker with other committee members or catching the Celtics game with his friends in ZBT.",
+    image: NaailLakhaniImage,
     alum: false,
   },
   {
-    name: "Isaac Zhang",
-    role: "Committee",
-    username: "PresidentPeewee",
-    year: 2023,
-    bio: "Isaac is currently a sophomore majoring in Mathematics and Computer Science. He is also a member of Dance Troupe and ZBT. Outside of poker, Isaac loves listening to music and he enjoys talking about music with other people. His current favorite artists are Pink Floyd, Ween, Led Zeppelin, and Michael Jackson. In the future, Isaac wants to make money by gambling.",
-    image: IsaacZhangImage,
-    alum: false,
-  },
-  {
-    name: "Lauren Li",
-    role: "Committee",
-    username: "lithium01",
-    year: 2023,
-    bio: "Lauren is a sophomore majoring in Physics and Mathematics. She researches single-cell genomics, plays violin in the MIT Symphony Orchestra and is on the Asian Dance Team. Aside from Poker, she also enjoys climbing trees and creating the occasional meme.",
-    image: LaurenLiImage,
+    name: "Eric Wang",
+    role: "",
+    username: "nlakhani",
+    year: 2024,
+    bio: "",
+    image: EricWangImage,
     alum: false,
   },
   {
@@ -338,6 +375,42 @@ export const members: Array<Member> = [
     year: 2024,
     bio: "Michelle is a second-year majoring in computer science and dabbling in mathematics. She's also a member of class council and pi phi. When she's not busy raking in wins from poker, she loves curating her spotify playlists, playing tennis, and trying to grow basil for the third time.",
     image: MichelleLiImage,
+    alum: false,
+  },
+  {
+    name: "Penny Tan",
+    role: "Committee",
+    username: "moospire",
+    year: 2024,
+    bio: "", 
+    image: PennyTanImage,
+    alum: false,
+  },
+  {
+    name: "Nathan Chen",
+    role: "Committee",
+    username: "moospire",
+    year: 2025,
+    bio: "", 
+    image: NathanChenImage,
+    alum: false,
+  },
+  {
+    name: "Andrew Diaz",
+    role: "Committee",
+    username: "moospire",
+    year: 2026,
+    bio: "", 
+    image: AndrewDiazImage,
+    alum: false,
+  },
+  {
+    name: "Vicky Chen",
+    role: "Committee",
+    username: "moospire",
+    year: 2026,
+    bio: "", 
+    image: VickyChenImage,
     alum: false,
   },
 ]
