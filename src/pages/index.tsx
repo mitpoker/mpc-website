@@ -34,9 +34,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div style={imageStyle}>
-            <Image src={Logo} width={250} padding={200} alt=""></Image>
-          </div>
+          <Image style={imageStyle} src={Logo} width={250} alt=""/>
         </div>
       </main >
     </>
