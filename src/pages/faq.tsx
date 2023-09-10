@@ -30,28 +30,23 @@ const FAQ = () => {
 }
 
 const content = `
-How can I become a Poker Club member?
-Simply create an account on our website. You must attach your resume: we have strong connections with trading companies and your resume will be included in the resume booklet we present to our sponsors. Once you create an account on our website, you are officially a member of the MIT Poker Club! If you do not have a PokerStars username, you may leave that signup field blank temporarily (it is required for participating in the SIG Main Event Series and any online tournaments)
+What is MIT Poker Club?
+MIT Poker Club is a student organization based at MIT, dedicated to fostering a passion for poker among its members. 
 
 
-How can I join the executive committee, and what are some of the responsibilities?
-General members can attend our events, such as GBMs (general body meetings), tournaments, and talks. Committee members are officers that help organize these events, and are expected to attend and help out at all events. We hold weekly meetings to discuss logistics for upcoming events, plan future events, and decide the general direction of the club. Afterwards, we typically spend some time playing poker together, with an emphasis on discussion and learning. In addition, this year we will hold weekly workshops for new and old committee members alike to get a solid foundation on the decision making analysis behind poker. The application to join the executive committee will become available in the spring semester of 2021. We look forward to seeing your application!
+How can I get involved with MIT Poker Club?
+There are two ways to get involved. The first way is as a a general member - we warmly welcome all MIT students to become general members of the MIT Poker Club. Members will have the opportunity to attend all of our club's events, which include weekly meetings, casino nights, workshops, and tournaments. The second way is as a member of the executive committe, which is a close-knit group comprised of approximately 15-20 poker-loving undergraduates. Their main responsibility is to organize and manage all the club's events and activities, ensuring an enjoyable experience for all members. The committee also leads an internal education program, where executive members have the opportunity to study poker together. Additionally, they enjoy a variety of social events, such as dinners and retreats. 
 
 
-Who can participate in Poker Club events?
-Please sign up to become a member! We welcome anyone to attend Poker Club events. However, you must be a member to attend our GBMs and SIG Main Event Series and be eligible to win prizes.
+How can I join as a general member?
+It’s really easy! Sign up for our [mailing list](https://docs.google.com/forms/d/e/1FAIpQLSeGep1nxtPsViv6yt3ES11LZaJ4sKhfP5G9OfDE_ahrExakJg/viewform).
 
 
-How can I qualify/participate in the SIG Main Event Series?
-The SIG Main Event Series is a triannual invitational poker tournament organized by SIG. The Fall Main Event's date will soon be determined and is exclusive to MIT students. Stay updated on our Facebook page for more information. In order to qualify for the SIG Main Event, you must first become a member. Then, participate in one of the two online qualifier tournaments held on PokerStars, which will be announced in the fall semester. We will email out more logistical details in the future. Typically, the top 40 in each qualifier will be invited.
+How can I join the executive committee?
+Applications for the executive committee typically happen every fall. To get notified when our applications open, sign up for our [mailing list](https://docs.google.com/forms/d/e/1FAIpQLSeGep1nxtPsViv6yt3ES11LZaJ4sKhfP5G9OfDE_ahrExakJg/viewform).
 
 
-Why should I sponsor the Poker Club, and how can I become a sponsor?
-If you are interested in learning more about sponsoring the Poker Club, please contact us at poker-exec@mit.edu. We can send you the official sponsorship package, which details the different levels of sponsorship and company benefits for each level.
-
-
-As a sponsor, how can I access the resume book?
-The resume book will be ready by the end of September or beginning of October, after we compile all of the resumes from new and returning members. We will reach out to each company at that time to email out the resume book. If there are any issues or you have any concerns, send an email to poker-exec@mit.edu.
-`
+How can I become a sponsor?
+If you are interested in sponsoring MIT Poker Club, we encourage you to get in touch with us at *[poker-exec@mit.edu](mailto:poker-exec@mit.edu)*. We will provide you with our official sponsorship package, which outlines the various levels of sponsorship and the associated benefits that you can enjoy at each level.`
 
 export default FAQ
