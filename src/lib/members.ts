@@ -346,7 +346,7 @@ export const members: Array<Member> = [
     role: "Treasurer",
     username: "Jjshan262",
     year: 2025,
-    bio: "Thomas is a junior descending from North USA. In his free time, which starts with his day after 2 pm, he likes shaking hands and dislikes folding hands.",
+    bio: "Thomas is a junior descending from Canada, majoring in CS and Math. He’s also a member of Theta Xi, and enjoys playing video games. In his free time, he likes shaking hands and dislikes folding hands.",
     image: ThomasGuoImage,
     alum: false,
   },
