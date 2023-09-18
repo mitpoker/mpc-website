@@ -11,6 +11,7 @@ const tierConfig: Record<SponsorTier, { width: string, ownLine: boolean, grid: s
 	[SponsorTier.Gold]: { width: "w-2/3 md:w-1/2", grid: "grid-cols-1", ownLine: true },
 	[SponsorTier.Silver]: { width: "w-full md:w-2/3", grid: "grid-cols-1", ownLine: true },
 	[SponsorTier.Bronze]: { width: "w-full md:w-2/3", grid: "grid-cols-2", ownLine: false },
+	[SponsorTier.Partner]: { width: "w-full md:w-2/3", grid: "grid-cols-1", ownLine: false },
 }
 
 const Sponsors = () => {

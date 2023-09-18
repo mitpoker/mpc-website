@@ -12,12 +12,14 @@ import JumpTradingImage from "../../images/sponsors/jumptrading.png"
 import DRWImage from "../../images/sponsors/drw.jpeg"
 import HRTImage from "../../images/sponsors/hrt.png"
 import DEShawImage from "../../images/sponsors/deshaw.png"
+import PokerNowImage from "../../images/sponsors/pokernow.png"
 
 export enum SponsorTier {
   Platinum = "platinum",
   Gold = "gold",
   Silver = "silver",
   Bronze = "bronze",
+  Partner = "partner",
 }
 
 export type Sponsor = {
@@ -92,5 +94,11 @@ export const SponsorData: Array<Sponsor> = [
     tier: SponsorTier.Bronze,
     image: DEShawImage,
     link: "https://deshaw.com",
+  },
+  {
+    name: "PokerNow",
+    tier: SponsorTier.Partner,
+    image: PokerNowImage,
+    link: "https://www.pokernow.club/",
   },
 ]
