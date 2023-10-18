@@ -337,7 +337,7 @@ export const members: Array<Member> = [
     role: "Corporate Relations",
     username: "Jjshan262",
     year: 2025,
-    bio: "",
+    bio: "Dylan is a junior from Hong Kong majoring in Physics and Mathematical Economics. He’s also a member of Phi Sigma Kappa and is on the lightweight rowing team. In his free time, he enjoys watching rugby, cooking, and hanging out with friends.",
     image: DylanRobinsonImage,
     alum: false,
   },
