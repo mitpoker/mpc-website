@@ -29,7 +29,6 @@ export default function Home() {
 
           <div className="max-w-prose mt-5 text-justify prose prose-zinc">
             <div className="px-2 flex flex-col">
-              <p className="font-bold" style={{ color: 'blue' }}>Applications for the executive committee are now <Link href="https://airtable.com/appo4lDrVdT7xOANW/shr2WeZxfrwFCfSah">open!</Link> Please fill out the application by 9/16 @ 6PM EST. We look forward to reading your applications!</p>
               <p>{"Welcome to MIT Poker Club! We provide a fun, spirited learning environment for poker enthusiasts and novices alike — all levels are welcome! Throughout the year, we organize workshops, study breaks, tournaments, and more to enhance members' analytical and mathematical skills used in poker strategies, with an emphasis on understanding decision making processes. Our strong connections with trading companies provide great networking opportunities for club members, as both poker and trading require similar strategical skills."} </p>
               <p>If you have any questions about the MIT Poker Club, or are interested in becoming a member or joining the executive committee, please see our <Link href="/faq">FAQ</Link> or <Link href="/contact">contact us.</Link> </p>
             </div>
