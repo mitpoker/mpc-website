@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image"
-import SigImage from "../../images/sponsors/sig.jpg"
+import SigImage from "../../images/sponsors/sig.png"
 import CitadelImage from "../../images/sponsors/citadel.png"
 import TwoSigmaImage from "../../images/sponsors/twosigma.jpg"
 import CubistImage from "../../images/sponsors/cubist.png"
