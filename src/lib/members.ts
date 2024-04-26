@@ -3,6 +3,7 @@
 import AllenChengImage from "../../images/headshots/Allen_Cheng_Profile_Picture.jpg"
 import AllenDingImage from "../../images/headshots/Allen_Ding_Profile_Picture.png"
 import AllenWangImage from "../../images/headshots/Allen_Wang_Profile_Picture.png"
+import AnnieWangImage from "../../images/headshots/Annie_Wang_Profile_Picture.jpg"
 import AndrewDiazImage from "../../images/headshots/Andrew_Diaz_Profile_Picture.jpeg"
 import AnnieChenImage from "../../images/headshots/Annie_Chen_Profile_Picture.jpg"
 import AnthonyNardomarinoImage from "../../images/headshots/Anthony_Nardomarino_Profile_Picture.jpeg"
@@ -382,7 +383,7 @@ export const members: Array<Member> = [
     role: "Committee",
     username: "moospire",
     year: 2024,
-    bio: "", 
+    bio: "",
     image: PennyTanImage,
     alum: false,
   },
@@ -411,6 +412,15 @@ export const members: Array<Member> = [
     year: 2026,
     bio: "Vicky is a sophomore studying 6-9. Outside of poker, she's involved in Ring Committee and HackMIT. In her free time, she enjoys painting and reading yelp reviews.",
     image: VickyChenImage,
+    alum: false,
+  },
+  {
+    name: "Annie Wangster",
+    role: "Committee",
+    username: "moospire",
+    year: 2027,
+    bio: "annie is a 2027er probably studying cs and math. outside of poker, she's also involved with hackmit and piphi. you'll often find her sipping matcha, karaoking with friends, or listening to yappers yap.",
+    image: AnnieWangImage,
     alum: false,
   },
 ]
