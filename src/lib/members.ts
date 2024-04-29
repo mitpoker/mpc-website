@@ -3,6 +3,7 @@
 import AllenChengImage from "../../images/headshots/Allen_Cheng_Profile_Picture.jpg"
 import AllenDingImage from "../../images/headshots/Allen_Ding_Profile_Picture.png"
 import AllenWangImage from "../../images/headshots/Allen_Wang_Profile_Picture.png"
+import AnishMudideImage from "../../images/headshots/Anish_Mudide_Profile_Picture.jpg"
 import AnnieWangImage from "../../images/headshots/Annie_Wang_Profile_Picture.jpg"
 import AndrewDiazImage from "../../images/headshots/Andrew_Diaz_Profile_Picture.jpeg"
 import AnnieChenImage from "../../images/headshots/Annie_Chen_Profile_Picture.jpg"
@@ -421,6 +422,15 @@ export const members: Array<Member> = [
     year: 2027,
     bio: "annie is a 2027er probably studying cs and math. outside of poker, she's also involved with hackmit and piphi. you'll often find her sipping matcha, karaoking with friends, or listening to yappers yap.",
     image: AnnieWangImage,
+    alum: false,
+  },
+  {
+    name: "Anish Mudide",
+    role: "Committee",
+    username: "moospire",
+    year: 2027,
+    bio: "Anish is a freshman studying Math and Computer Science. He is a member of Phi Sigma Kappa and enjoys playing Super Smash Bros.",
+    image: AnishMudideImage,
     alum: false,
   },
 ]

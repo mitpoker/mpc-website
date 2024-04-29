@@ -2,31 +2,28 @@ import React from "react"
 import { ReactMarkdown } from "react-markdown/lib/react-markdown"
 
 const FAQ = () => {
-	const rawPairs = content.trim().split('\n\n\n')
-	const qa = rawPairs.map(pair => ({
-		question: pair.split('\n')[0],
-		answer: pair.split('\n').slice(1).join('\n')
-	}))
-	return <div className="max-w-prose mx-auto">
-		<div className="px-2 flex flex-col">
-			<h2 className="text-zinc-700 font-bold text-2xl mx-auto my-5 text-center">Frequently Asked Questions</h2>
-			{qa.map(({ question, answer }) => (
-				<div key={question} className="py-3">
-					<div className="font-bold text-zinc-800 prose prose-zinc">
-						<ReactMarkdown>
-							{question}
-						</ReactMarkdown>
-					</div>
-					<div className="text-zinc-500 prose prose-zinc text-justify">
-						<ReactMarkdown>
-							{answer}
-						</ReactMarkdown>
-					</div>
-				</div>
-			))}
-		</div>
-
-	</div>
+  const rawPairs = content.trim().split("\n\n\n")
+  const qa = rawPairs.map((pair) => ({
+    question: pair.split("\n")[0],
+    answer: pair.split("\n").slice(1).join("\n"),
+  }))
+  return (
+    <div className="max-w-prose mx-auto">
+      <div className="px-2 flex flex-col">
+        <h2 className="text-zinc-700 font-bold text-2xl mx-auto my-5 text-center">Frequently Asked Questions</h2>
+        {qa.map(({ question, answer }) => (
+          <div key={question} className="py-3">
+            <div className="font-bold text-zinc-800 prose prose-zinc">
+              <ReactMarkdown>{question}</ReactMarkdown>
+            </div>
+            <div className="text-zinc-500 prose prose-zinc text-justify">
+              <ReactMarkdown>{answer}</ReactMarkdown>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 const content = `
