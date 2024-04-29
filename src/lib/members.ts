@@ -39,6 +39,7 @@ import MartinMaImage from "../../images/headshots/Martin_Ma_Profile_Picture.jpg"
 import MeghaMaranImage from "../../images/headshots/Megha_Maran_Profile_Picture.jpg"
 import MichaelZhaoImage from "../../images/headshots/Michael_Zhao_Profile_Picture.jpg"
 import MichelleLiImage from "../../images/headshots/Michelle_Li_Profile_Picture.png"
+import MichelleXingImage from "../../images/headshots/Michelle_Xing_Profile_Picture.jpg"
 import MideumParkImage from "../../images/headshots/Mideum_Park_Profile_Picture.jpg"
 import NaailLakhaniImage from "../../images/headshots/Naail_Lakhani_Profile_Picture.jpeg"
 import NathanChenImage from "../../images/headshots/Nathan_Chen_Profile_Picture.jpg"
@@ -431,6 +432,15 @@ export const members: Array<Member> = [
     year: 2027,
     bio: "Anish is a freshman studying Math and Computer Science. He is a member of Phi Sigma Kappa and enjoys playing Super Smash Bros.",
     image: AnishMudideImage,
+    alum: false,
+  },
+  {
+    name: "Michelle Xing",
+    role: "Committee",
+    username: "moospire",
+    year: 2027,
+    bio: "Michelle is a freshman studying CS and Mathematical Economics. In her free time, she enjoys playing tennis and pickleball and walking around Boston with friends.",
+    image: MichelleXingImage,
     alum: false,
   },
 ]
