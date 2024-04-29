@@ -416,7 +416,7 @@ export const members: Array<Member> = [
     alum: false,
   },
   {
-    name: "Annie Wangster",
+    name: "Annie Wang",
     role: "Committee",
     username: "moospire",
     year: 2027,
