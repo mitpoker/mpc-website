@@ -13,6 +13,8 @@ import DRWImage from "../../images/sponsors/drw.jpeg"
 import HRTImage from "../../images/sponsors/hrt.png"
 import DEShawImage from "../../images/sponsors/deshaw.png"
 import PokerNowImage from "../../images/sponsors/pokernow.png"
+import ChaiImage from "../../images/sponsors/chai.png"
+import BridgewaterImage from "../../images/sponsors/bridgewater.png"
 
 export enum SponsorTier {
   Platinum = "platinum",
@@ -101,4 +103,16 @@ export const SponsorData: Array<Sponsor> = [
     image: PokerNowImage,
     link: "https://www.pokernow.club/",
   },
+  {
+    name: "Bridgewater",
+    tier: SponsorTier.Bronze,
+    image: BridgewaterImage,
+    link: "https://www.bridgewater.com/",
+    },
+  {
+    name: "Chai AI",
+    tier: SponsorTier.Bronze,
+    image: ChaiImage,
+    link: "https://www.chai-research.com/",
+    },
 ]
